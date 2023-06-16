@@ -22,21 +22,21 @@
         },
         "DiagnosticsWorkspaceName": {
             "type": "string",
-            "defaultValue": "<WorkspaceName>",
+            "defaultValue": "law-syd-platform-mgmt-001",
             "metadata": {
                 "description": "Provide the workspace name for your Network Diagnostic logs"
             }
         },
         "DiagnosticsWorkspaceSubscription": {
             "type": "string",
-            "defaultValue": "<WorkspaceSubscriptionID>",
+            "defaultValue": "735b6cda-b9b3-4dd7-aeeb-616a69dcbff7",
             "metadata": {
                 "description": "Provide the workspace subscription GUID for your Network Diagnostic logs"
             }
         },
         "DiagnosticsWorkspaceResourceGroup": {
             "type": "string",
-            "defaultValue": "<ResourceGroupName>",
+            "defaultValue": "arg-syd-platform-mgmt-management",
             "metadata": {
                 "description": "Provide the workspace resourcegroupname for your Network Diagnostic logs"
             }

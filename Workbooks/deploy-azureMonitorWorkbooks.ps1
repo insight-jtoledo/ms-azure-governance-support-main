@@ -1,10 +1,10 @@
 $DeploymentName = 'ms-insight-governanceandsupport'
 #Replace below text with your subscription id here to deploy these monitoring workbooks
-$SubscriptionId = 'xxxxxx-xxx-xxx-xxxx-xxxxxxxx'
+$SubscriptionId = '735b6cda-b9b3-4dd7-aeeb-616a69dcbff7'
 #Replace below text with your tenant id here to deploy
-$TenantId = 'xxxxx-xxx-xxx-xxx-xxxxx'
+$TenantId = 'ce76d430-3619-4f25-954a-79dfb47ab948'
 #Replace resource group name with your Resource Group Name
-$Rg = 'RG-xx-xx'
+$Rg = 'arg-syd-platform-mgmt-workbooks'
 
 Select-AzSubscription -SubscriptionName $SubscriptionId -Tenant $TenantId
 

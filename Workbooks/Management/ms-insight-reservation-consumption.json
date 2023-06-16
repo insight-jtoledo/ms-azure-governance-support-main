@@ -17,7 +17,7 @@
     },
     "workbookSourceId": {
       "type": "string",
-      "defaultValue": "/subscriptions/ce6235e3-e4e9-421f-b8a9-def58c04fc17/resourceGroups/pid-aue-cor-arg-management/providers/Microsoft.OperationalInsights/workspaces/pid-aue-cor-law-54aa1dfd",
+      "defaultValue": "/subscriptions/735b6cda-b9b3-4dd7-aeeb-616a69dcbff7/resourceGroups/arg-syd-platform-mgmt-management/providers/Microsoft.OperationalInsights/workspaces/law-syd-platform-mgmt-001",
       "metadata": {
         "description": "The id of resource instance to which the workbook will be associated"
       }
