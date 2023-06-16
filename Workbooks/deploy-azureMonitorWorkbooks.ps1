@@ -10,12 +10,12 @@ Select-AzSubscription -SubscriptionName $SubscriptionId -Tenant $TenantId
 
 New-AzResourceGroupDeployment -Name $DeploymentName `
     -ResourceGroupName $Rg `
-    -TemplateFile '.\Identity\ms-insight-azure-ad-app-consent.json'
+    -TemplateFile '.\Identity\ms-insight-azure-ad-app-consent.json' `
     -Verbose
 
 New-AzResourceGroupDeployment -Name $DeploymentName `
     -ResourceGroupName $Rg `
-    -TemplateFile '.\Identity\ms-insight-keyvault.json'
+    -TemplateFile '.\Identity\ms-insight-keyvault.json' `
     -Verbose
 
 New-AzResourceGroupDeployment -Name $DeploymentName `
